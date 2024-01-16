@@ -13,12 +13,18 @@ export default function Home() {
     title: "Haskell Compiler",
     link: "https://github.com/christophergyman",
     postType: "Project",
-    description: "Base compiler built using Haskell",
-    bubbleColor: "blue",
+    description:
+      "This project is based around creating a simple compiler in react",
+    bubbleColor: "🔵",
     bubbleName: "Haskell",
   };
   // example projectArr
-  const exampleProjectArr: Project[] = [exampleProject, exampleProject];
+  const exampleProjectArr: Project[] = [
+    exampleProject,
+    exampleProject,
+    exampleProject,
+    exampleProject,
+  ];
 
   // example post
   const examplePost: Post = {
@@ -31,15 +37,16 @@ export default function Home() {
   const examplePostArr: Post[] = [examplePost, examplePost];
 
   // return JSX
-
   return (
     <main>
-      <div className="flex justify-center w-screen h-screen mt-[50px]">
-        <div className="outline sm:w-full lg:w-1/2 ">
-          <h1 className="font-black text-white text-4xl text-center">
-            Chrisgyman.dev
-          </h1>
-          <ProjectGrid projectList={exampleProjectArr} />
+      <div className="flex justify-center w-screen h-screen mt-[1%]">
+        <div className="sm:w-full lg:w-1/2">
+          <div className="w-max">
+            <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
+          </div>
+          <div className="w-fit">
+            <ProjectGrid projectList={exampleProjectArr} />
+          </div>
           <PostGrid postList={examplePostArr} />
         </div>
       </div>
