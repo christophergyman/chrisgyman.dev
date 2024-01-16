@@ -1,7 +1,10 @@
 interface Project {
   title: string;
   link: string;
-  date: string;
+  postType: string;
+  description: string;
+  bubbleColor: string;
+  bubbleName: string;
 }
 
 export type { Project };

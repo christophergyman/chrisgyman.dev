@@ -2,17 +2,20 @@ import Image from "next/image";
 import { ProjectBubble } from "./components/project-bubble";
 import { Project } from "./project";
 import { ProjectGrid } from "./components/project-grid";
+import { PostGrid } from "./components/post-grid";
 
 export default function Home() {
   // example project
   const exampleProject: Project = {
     title: "Haskell Compiler",
-    link: "https://www.github.com",
-    date: "04/12/2001",
+    link: "https://github.com/christophergyman",
+    postType: "Project",
+    description: "Base compiler built using Haskell",
+    bubbleColor: "blue",
+    bubbleName: "Haskell",
   };
-
+  // example projectArr
   const exampleProjectArr: Project[] = [exampleProject, exampleProject];
-  // example project-grid
 
   // return JSX
   return (
