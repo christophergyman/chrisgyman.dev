@@ -6,6 +6,7 @@ import { PostGrid } from "./components/post-grid";
 import { Post } from "./post";
 
 export default function Home() {
+  // Test data
   // example project
   const exampleProject: Project = {
     id: 1,
@@ -30,6 +31,7 @@ export default function Home() {
   const examplePostArr: Post[] = [examplePost, examplePost];
 
   // return JSX
+
   return (
     <main>
       <div className="flex justify-center w-screen h-screen mt-[50px]">
