@@ -3,10 +3,12 @@ import { ProjectBubble } from "./components/project-bubble";
 import { Project } from "./project";
 import { ProjectGrid } from "./components/project-grid";
 import { PostGrid } from "./components/post-grid";
+import { Post } from "./post";
 
 export default function Home() {
   // example project
   const exampleProject: Project = {
+    id: 1,
     title: "Haskell Compiler",
     link: "https://github.com/christophergyman",
     postType: "Project",
@@ -17,6 +19,16 @@ export default function Home() {
   // example projectArr
   const exampleProjectArr: Project[] = [exampleProject, exampleProject];
 
+  // example post
+  const examplePost: Post = {
+    id: 1,
+    title: "How I got into front-end dev",
+    content: "The way that I got into.... ",
+    link: "https://www.chrisgyman.com",
+  };
+
+  const examplePostArr: Post[] = [examplePost, examplePost];
+
   // return JSX
   return (
     <main>
@@ -26,6 +38,7 @@ export default function Home() {
             Chrisgyman.dev
           </h1>
           <ProjectGrid projectList={exampleProjectArr} />
+          <PostGrid postList={examplePostArr} />
         </div>
       </div>
     </main>

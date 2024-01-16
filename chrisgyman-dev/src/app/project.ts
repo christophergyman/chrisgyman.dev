@@ -1,4 +1,5 @@
 interface Project {
+  id: number;
   title: string;
   link: string;
   postType: string;
