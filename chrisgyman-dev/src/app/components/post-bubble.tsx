@@ -14,7 +14,7 @@ function PostBubble({ post }: PostBubbleProps) {
           </h1>
         </a>
       </div>
-      <hr className="w-full" />
+      <hr className="w-full text-[#bdbdbd]" />
       <div className="px-6 py-1">
         <p className="text text-[#bdbdbd] ">{post.content}</p>
       </div>
