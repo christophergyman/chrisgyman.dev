@@ -6,7 +6,7 @@ interface ProjectBubbleProps {
 
 function ProjectBubble({ project }: ProjectBubbleProps) {
   return (
-    <div className="overflow-hidden outline outline-[#bdbdbd] rounded-3xl m-5 w-fit ">
+    <div className="overflow-hidden outline outline-1 outline-[#bdbdbd] rounded-xl m-5 w-fit ">
       <div className="m-5">
         <div className="">
           <a href={project.link} className="flex flex-row">
@@ -15,7 +15,7 @@ function ProjectBubble({ project }: ProjectBubbleProps) {
               {project.title}
             </p>
             <div className="pl-3 m-1">
-              <div className="outline outline-[#bdbdbd] outline-1 rounded-3xl px-3">
+              <div className="outline outline-[#bdbdbd] outline-1 rounded-xl px-3">
                 <p className="text-xs">{project.postType}</p>
               </div>
             </div>

@@ -7,7 +7,7 @@ interface PostGridProps {
 
 function PostGrid({ postList }: PostGridProps) {
   return (
-    <div>
+    <div className="">
       {postList.map((post) => (
         <PostBubble post={post} />
       ))}

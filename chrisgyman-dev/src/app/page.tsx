@@ -39,11 +39,9 @@ export default function Home() {
   // return JSX
   return (
     <main>
-      <div className="flex justify-center w-screen h-screen mt-[1%]">
-        <div className="sm:w-full lg:w-1/2">
-          <div className="w-max">
-            <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
-          </div>
+      <div className="flex flex-col items-center w-screen h-screen mt-10">
+        <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
+        <div className="outline sm:w-full lg:w-1/2">
           <div className="w-fit">
             <ProjectGrid projectList={exampleProjectArr} />
           </div>
