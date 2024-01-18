@@ -7,7 +7,7 @@ interface ProjectGridProps {
 
 function ProjectGrid({ projectList }: ProjectGridProps) {
   return (
-    <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0">
+    <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-0 w-fit">
       {projectList.map((project) => (
         <ProjectBubble project={project} />
       ))}

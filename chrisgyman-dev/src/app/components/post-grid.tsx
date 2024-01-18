@@ -7,7 +7,7 @@ interface PostGridProps {
 
 function PostGrid({ postList }: PostGridProps) {
   return (
-    <div className="">
+    <div className="w-fit md:w-fit lg:w-[890px] xl:w-[890px] 2xl:w-[890px]">
       {postList.map((post) => (
         <PostBubble post={post} />
       ))}
