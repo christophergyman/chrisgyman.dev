@@ -41,11 +41,13 @@ export default function Home() {
     <main>
       <div className="flex flex-col items-center w-screen h-screen mt-10">
         <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
-        <div className="sm:w-full lg:w-1/2">
-          <div className="w-fit">
-            <ProjectGrid projectList={exampleProjectArr} />
+        <div className="outline sm:w-full md:full lg:w-1/2">
+          <div className="flex justify-center">
+            <div className="w-fit">
+              <ProjectGrid projectList={exampleProjectArr} />
+              <PostGrid postList={examplePostArr} />
+            </div>
           </div>
-          <PostGrid postList={examplePostArr} />
         </div>
       </div>
     </main>
