@@ -4,6 +4,7 @@ import { Project } from "./project";
 import { ProjectGrid } from "./components/project-grid";
 import { PostGrid } from "./components/post-grid";
 import { Post } from "./post";
+import { MarkdownComponent } from "./components/markdown-post";
 
 export default function Home() {
   // Test data
@@ -42,6 +43,7 @@ export default function Home() {
     <main>
       <div className="flex flex-col items-center w-screen h-screen mt-10">
         <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
+        <MarkdownComponent />
         <div className="flex flex-col items-center">
           <ProjectGrid projectList={exampleProjectArr} />
           <PostGrid postList={examplePostArr} />
