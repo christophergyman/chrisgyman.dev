@@ -1,16 +1,26 @@
-import { Post } from "../post";
+import { PostBubbleComponentProps } from "../post";
 import { PostBubble } from "./post-bubble";
 
-interface PostGridProps {
-  postList: Post[];
+
+interface PostGridProps{
+  postSourceArray: PostBubbleComponentProps[];
 }
 
-function PostGrid({ postList }: PostGridProps) {
+
+  // const examplePostArr: PostBubbleComponentProps[] = [examplePost, examplePost];
+
+function PostGrid({ postSourceArray}: PostGridProps) {
   return (
     <div className="w-fit md:w-fit lg:w-[890px] xl:w-[890px] 2xl:w-[890px]">
-      {postList.map((post) => (
-        <PostBubble post={post} />
+      {postSourceArray.map((postSourceArray) => (
+        <PostBubble filepath={postSourceArray.filepath} />
       ))}
+
+
+
+      {/* {postList.map((postList) => (
+        <PostBubble filepath={post} />
+      ))} */}
     </div>
   );
 }

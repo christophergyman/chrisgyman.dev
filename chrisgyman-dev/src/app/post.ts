@@ -1,8 +1,6 @@
-interface Post {
-  id: number;
-  title: string;
-  content: string;
-  link: string;
+//Interface 
+interface PostBubbleComponentProps{
+    filepath: string; 
 }
 
-export type { Post };
+export type {PostBubbleComponentProps}
