@@ -4,6 +4,7 @@ import { Project } from "./project";
 import { ProjectGrid } from "./components/project-grid";
 import { PostGrid } from "./components/post-grid";
 import { Post } from "./post";
+import { MarkdownComponent } from "./components/markdown";
 
 export default function Home() {
   // Test data
@@ -36,6 +37,7 @@ export default function Home() {
 
   const examplePostArr: Post[] = [examplePost, examplePost];
 
+  
   // return JSX
   return (
     <main>
@@ -44,6 +46,7 @@ export default function Home() {
         <div className="flex flex-col items-center">
           <ProjectGrid projectList={exampleProjectArr} />
           <PostGrid postList={examplePostArr} />
+          <MarkdownComponent filepath="/src/app/markdownfiles/why-make-a-website.md"></MarkdownComponent>
         </div>
       </div>
     </main>
