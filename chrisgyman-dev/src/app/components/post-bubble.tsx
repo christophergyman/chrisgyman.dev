@@ -1,4 +1,5 @@
 import { Post } from "../post";
+import MarkdownComponent from "./markdown-post";
 
 interface PostBubbleProps {
   post: Post;
@@ -17,7 +18,9 @@ function PostBubble({ post }: PostBubbleProps) {
       </div>
       <hr className="w-full text-[#bdbdbd]" />
       <div className="px-6 py-1 text-xs md:text-base lg:text-base xl:text-base 2xl:text-base">
-        <p className="text text-[#bdbdbd] ">{post.content}</p>
+        <p className="text text-[#bdbdbd] ">
+          <MarkdownComponent />
+        </p>
       </div>
     </div>
   );
