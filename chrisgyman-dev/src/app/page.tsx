@@ -6,6 +6,7 @@ import { PostGrid } from "./components/post-grid";
 import { PostBubbleComponentProps } from "./post";
 import { PostCardComponent } from "./components/post-card";
 import { PostCardProps } from "./postcard";
+import { PostCardGridComponent } from "./components/post-card-grid";
 
 export default function Home() {
   // Test data
@@ -44,6 +45,8 @@ export default function Home() {
     bubbleText2: "Nextjs",
   }
 
+  const arrPostCards: PostCardProps[] = [examplePostCard, examplePostCard, examplePostCard, examplePostCard]
+
 
   // return JSX
   return (
@@ -52,7 +55,7 @@ export default function Home() {
         <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
         <div className="flex flex-col items-center">
           <ProjectGrid projectList={exampleProjectArr} />
-          <PostCardComponent postCardDetails={examplePostCard} />
+          <PostCardGridComponent postGridArray={arrPostCards}/>
           {/* <PostGrid postSourceArray={examplePostArr}/> */}
         </div>
       </div>

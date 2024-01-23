@@ -1,14 +1,14 @@
 import { postcss } from "tailwindcss";
 import { PostCardProps } from "../postcard";
 
-interface PostCardItemsProps{
-    postCardDetails: PostCardProps,
+interface PostCardItemsProps {
+  postCardDetails: PostCardProps;
 }
 
-function PostCardComponent({postCardDetails}: PostCardItemsProps) {
+function PostCardComponent({ postCardDetails }: PostCardItemsProps) {
   return (
-    <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
+    <div className="">
+      <div className="outline outline-1 card w-96 bg-base-100 shadow-xl">
         <figure>
           <img
             src={postCardDetails.imageSrc}
@@ -18,23 +18,25 @@ function PostCardComponent({postCardDetails}: PostCardItemsProps) {
           />
         </figure>
         <div className="card-body">
-          <h2 className="card-title">
+          <h2 className="card-title text-[#bdbdbdb] font-bold">
             {postCardDetails.title}
             {/* Shoes! */}
-            </h2>
-          <p>
-            {postCardDetails.subTitle}
-            {/* If a dog chews shoes whose shoes does he choose? */}
+          </h2>
+          <div className="">
+            <p className="">
+              {postCardDetails.subTitle}
+              {/* If a dog chews shoes whose shoes does he choose? */}
             </p>
+          </div>
           <div className="card-actions justify-end">
             <div className="badge badge-outline">
-                {postCardDetails.bubbleText1}
-                {/* Fashion */}
-                </div>
+              {postCardDetails.bubbleText1}
+              {/* Fashion */}
+            </div>
             <div className="badge badge-outline">
-                {postCardDetails.bubbleText2}
-                {/* Products */}
-                </div>
+              {postCardDetails.bubbleText2}
+              {/* Products */}
+            </div>
           </div>
         </div>
       </div>
