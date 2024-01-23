@@ -4,6 +4,8 @@ import { Project } from "./project";
 import { ProjectGrid } from "./components/project-grid";
 import { PostGrid } from "./components/post-grid";
 import { PostBubbleComponentProps } from "./post";
+import { PostCardComponent } from "./components/post-card";
+import { PostCardProps } from "./postcard";
 
 export default function Home() {
   // Test data
@@ -33,7 +35,16 @@ export default function Home() {
 
   const examplePostArr: PostBubbleComponentProps[] = [examplePost, examplePost];
 
-  
+  const examplePostCard: PostCardProps = {
+    imageSrc: "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
+    imageAlt: "Shoes",
+    title: "Why make a website?",
+    subTitle: "Its important to present work thats non github-able",
+    bubbleText1: "Blog",
+    bubbleText2: "Nextjs",
+  }
+
+
   // return JSX
   return (
     <main>
@@ -41,7 +52,8 @@ export default function Home() {
         <h1 className="font-black text-white text-4xl">Chrisgyman.dev</h1>
         <div className="flex flex-col items-center">
           <ProjectGrid projectList={exampleProjectArr} />
-          <PostGrid postSourceArray={examplePostArr}/>
+          <PostCardComponent postCardDetails={examplePostCard} />
+          {/* <PostGrid postSourceArray={examplePostArr}/> */}
         </div>
       </div>
     </main>
