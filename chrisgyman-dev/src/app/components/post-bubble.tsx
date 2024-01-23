@@ -9,8 +9,8 @@ export async function PostBubble({ filepath }: PostBubbleComponentProps) {
   const file = await fs.readFile(process.cwd() + source , 'utf8');
 
   return (
-    <div className=" outline outline-1 outline-[#bdbdbd] rounded-xl lg:m-5 md:m-3 mt-5 mx-2">
-      <div className="prose">
+    <div className="flex flex-col items-center outline outline-1 outline-[#bdbdbd] rounded-xl lg:m-5 md:m-3 mt-5 mx-2">
+      <div className="prose p-5">
         <Markdown>{file}</Markdown>
       </div>
     </div>
