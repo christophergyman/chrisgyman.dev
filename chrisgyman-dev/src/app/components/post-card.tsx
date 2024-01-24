@@ -8,7 +8,7 @@ interface PostCardItemsProps {
 function PostCardComponent({ postCardDetails }: PostCardItemsProps) {
   return (
     <div className="">
-      <div className="outline outline-1 card w-[397px] bg-base-100 shadow-xl">
+      <div className="outline outline-1 card w-fit md:w-[397px] lg:w-[397px] xl:w-[397px] 2xl:w-[397px] bg-base-100 shadow-xl">
         <figure>
           <img
             src={postCardDetails.imageSrc}
