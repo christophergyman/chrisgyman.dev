@@ -3,22 +3,52 @@
 import { Project } from "./project";
 import { PostCardProps } from "./postcard";
 
-const exampleProject: Project = {
+const chrisgymandevProject: Project = {
   id: 1,
-  title: "Haskell Compiler",
-  link: "https://github.com/christophergyman",
+  title: "Chrisgyman.dev",
+  link: "https://github.com/christophergyman/chrisgyman.dev",
   postType: "Project",
-  description:
-    "This project is based around creating a simple compiler in react",
+  description: "Personal website written in NextJS using Typescript",
   bubbleColor: "🔵",
-  bubbleName: "Haskell",
+  bubbleName: "Typescript",
 };
+
+const nobloatWebsite: Project = {
+  id: 2,
+  title: "Nobloat Website",
+  link: "https://github.com/christophergyman/nobloat_website",
+  postType: "Project",
+  description: "A full website written barebones with no frameworks at all!",
+  bubbleColor: "🟠",
+  bubbleName: "HTML",
+};
+
+const androidWeatherApp: Project = {
+  id: 3,
+  title: "EX-Weather Android App",
+  link: "https://github.com/christophergyman/weatherAndroidApp",
+  postType: "Project",
+  description: "Android based Weather app using API",
+  bubbleColor: "🟡",
+  bubbleName: "Java",
+};
+
+const campusVideogame: Project = {
+  id: 4,
+  title: "Campus GPS Game",
+  link: "https://github.com/christophergyman/campus_gpa_game",
+  postType: "Project",
+  description: "A fullstack GPS Web-Dev game written in a team",
+  bubbleColor: "🟣",
+  bubbleName: "Fullstack",
+};
+
 // example projectArr
 const exampleProjectArr: Project[] = [
-  exampleProject,
-  exampleProject,
-  exampleProject,
-  exampleProject,
+  chrisgymandevProject,
+  nobloatWebsite,
+  androidWeatherApp,
+  campusVideogame,
 ];
 
 const examplePostCard: PostCardProps = {
