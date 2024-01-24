@@ -5,7 +5,7 @@ import { PostCardComponent } from "./post-card";
 function GridDisplay({ projectListArray, postCardListArr }: GridProps) {
   return (
     <div>
-      <div className="grid grid-cols-2">
+      <div className="grid grid-cols-2 gap-10 pt-10 pb-10">
         {projectListArray.map((project) => (
           <ProjectBubble project={project} />
         ))}
