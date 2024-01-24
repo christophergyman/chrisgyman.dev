@@ -1,14 +1,6 @@
-import Image from "next/image";
-import { ProjectBubble } from "./components/project-bubble";
 import { Project } from "./project";
-import { ProjectGrid } from "./components/project-grid";
-import { PostGrid } from "./components/post-grid";
-import { PostBubbleComponentProps } from "./post";
-import { PostCardComponent } from "./components/post-card";
 import { PostCardProps } from "./postcard";
-import { PostCardGridComponent } from "./components/post-card-grid";
 import { GridDisplay } from "./components/grid-display";
-import { GridProps } from "./gridprops";
 
 export default function Home() {
   // Test data
@@ -58,8 +50,6 @@ export default function Home() {
             projectListArray={exampleProjectArr}
             postCardListArr={arrPostCards}
           />
-          {/* <ProjectGrid projectList={exampleProjectArr} />
-          <PostCardGridComponent postGridArray={arrPostCards} /> */}
         </div>
       </div>
     </main>
