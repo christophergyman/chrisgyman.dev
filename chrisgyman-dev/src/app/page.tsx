@@ -7,12 +7,14 @@ export default function Home() {
   // return JSX
   return (
     <main>
-      <div className="flex flex-col items-center w-screen h-screen mt-10">
+      <div className="flex flex-col items-center mt-10">
         <h1 className="font-black text-white text-4xl drop-shadow-xl">
           Chrisgyman.dev
         </h1>
-        <AboutMeComponent />
-        <div className="flex flex-col items-center">
+        <div className=" md:flex lg:flex xl:flex 2xl:flex">
+          <div className="pt-10 pr-10">
+            <AboutMeComponent />
+          </div>
           <GridDisplay
             projectListArray={exampleProjectArr}
             postCardListArr={arrPostCards}
