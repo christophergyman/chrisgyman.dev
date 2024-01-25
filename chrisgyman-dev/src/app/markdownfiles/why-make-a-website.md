@@ -1,4 +1,4 @@
-# Why make a website?
+# Why make a nobloat website?
 27-09-2023
 
 After reading Npmalie's post on [👨🏾‍💻 "How to get into software" 👨🏾‍💻](https://github.com/npmaile/blog/blob/main/posts/2.%20How%20to%20get%20into%20software.md) and following his guidance of "Write a website from 
