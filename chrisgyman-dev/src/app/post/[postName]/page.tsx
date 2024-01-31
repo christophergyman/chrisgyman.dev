@@ -20,7 +20,6 @@ export default async function FullPost({
         <h1 className="font-black text-white text-4xl drop-shadow-xl">
           Chrisgyman.dev
         </h1>
-        <ProjectGridComponent projectListArray={exampleProjectArr} />
         <PostBubble filepath={finalPath} />
       </div>
     </main>

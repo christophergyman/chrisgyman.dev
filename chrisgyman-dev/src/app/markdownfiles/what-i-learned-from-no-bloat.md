@@ -17,7 +17,7 @@ But why learn the deeper level of a framework? Because when you delve deeper int
 
 So, to learn front-end development in a relatively intelligent way, adopting a minimalist mindset when attempting my first front-end project is essential. Hence, the NoBloat project was conceived.
 
-#What was learned?
+# What was learned?
 The Main 3 Takeaways:
 1. Repeating HTML = React Components
 2. Server Side Rendering (SSR) = NextJS

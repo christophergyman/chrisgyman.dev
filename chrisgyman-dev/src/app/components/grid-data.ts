@@ -61,8 +61,18 @@ const examplePostCard: PostCardProps = {
   bubbleText2: "Nextjs",
 };
 
+const learnedFromNoBloat: PostCardProps = {
+  imageSrc:
+    "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
+  imageAlt: "Learning",
+  title: "Learning from NoBloat.Dev",
+  subTitle: "Takeaways from a no framework static site",
+  bubbleText1: "Blog",
+  bubbleText2: "HTML",
+};
+
 const arrPostCards: PostCardProps[] = [
-  examplePostCard,
+  learnedFromNoBloat,
   examplePostCard,
   examplePostCard,
   examplePostCard,
