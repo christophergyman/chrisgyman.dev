@@ -1,8 +1,8 @@
 
-#🥡 Takeaways from NoBloat Project 🥡
+# 🥡 Takeaways from NoBloat Project 🥡
 The main purpose of starting the NoBloat website was that I wanted to create a website from scratch without using any prebuilt front-end libraries. From this process, I learned the fundamental reasons as to why we have these frameworks—the "Why" factor.
 
-# ❔ The 'Why'... ❔
+## ❔ The 'Why'... ❔
 A significant problem I observe nowadays, from watching first years (from the perspective of a 4th year with a year in the industry) on campus trying to learn software development, is that they merely learn how to use a single framework, stick to it, do not understand the reasons for how and why they are using it, and run into technical debt. This follows a vicious cycle of learning a framework solely for the purpose of building something, then discarding it, barely scraping the surface. In the future, they end up tacking on other frameworks because of bad initial project design—interacting with frameworks like a black box rather than understanding them at a deeper level.
 
 But why learn the deeper level of a framework? Because when you delve deeper into understanding why things are needed and how they are used, you can take a minimalist approach to development. Approaching a project with a minimalist mindset reduces the total complexity of a project.
@@ -73,7 +73,11 @@ In some ways now thinking about this whilst writing this blog this point can be 
 
 ## Conclusion?
 
- 
+In summary, the process of developing a fully functional blog website named "nobloat" without relying on large modern frontend frameworks presented its challenges. However, this endeavor proved to be an invaluable learning experience, emphasizing the importance of these frameworks in web development. It provided a foundational understanding of the web and when to leverage specific tools.
+
+Now equipped with a fully operational personal blog site, the next step involves adapting the "nobloat" website into a React + Next.js website. This transition is aimed at meeting the requirements of a proper .Dev website. By undertaking this evolution, the goal is to enhance the website's functionality and user experience.
+
+The intention is to make the new website more dynamic, responsive, and feature-rich by incorporating React and Next.js, which are renowned for their efficiency in building modern web applications. The expected outcome is a polished and professional website that aligns with the standards expected of a .Dev domain. Keep an eye out for this post on the updated website, as the transformation unfolds! 😊
 
 
 
