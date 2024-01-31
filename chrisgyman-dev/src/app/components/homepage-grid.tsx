@@ -1,5 +1,5 @@
-import { Project } from "../project";
-import { PostBubbleComponentProps } from "../post";
+import { Project } from "./project";
+import { PostBubbleComponentProps } from "./post";
 
 // Get Array 1 project components
 // Get Array 2 post components

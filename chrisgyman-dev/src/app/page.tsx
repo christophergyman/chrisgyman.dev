@@ -1,6 +1,6 @@
 import { GridDisplay } from "./components/grid-display";
-import { exampleProjectArr } from "./grid-data";
-import { arrPostCards } from "./grid-data";
+import { exampleProjectArr } from "./components/grid-data";
+import { arrPostCards } from "./components/grid-data";
 import { AboutMeComponent } from "./components/about-page";
 
 export default function Home() {

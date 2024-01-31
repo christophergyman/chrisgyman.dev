@@ -1,4 +1,4 @@
-import { GridProps } from "../gridprops";
+import { GridProps } from "./gridprops";
 import { ProjectBubble } from "./project-bubble";
 import { PostCardComponent } from "./post-card";
 

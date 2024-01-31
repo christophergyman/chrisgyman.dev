@@ -1,5 +1,5 @@
 import { postcss } from "tailwindcss";
-import { PostCardProps } from "../postcard";
+import { PostCardProps } from "./postcard";
 
 interface PostCardItemsProps {
   postCardDetails: PostCardProps;

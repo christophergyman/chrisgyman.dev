@@ -1,6 +1,6 @@
 import Markdown from "react-markdown";
 import { promises as fs } from "fs";
-import { PostBubbleComponentProps } from "../post";
+import { PostBubbleComponentProps } from "./post";
 
 // Async function to read markdown filepath into string
 export async function PostBubble({ filepath }: PostBubbleComponentProps) {

@@ -1,5 +1,7 @@
 
-# 🥡 Takeaways from NoBloat Project 🥡
+# 🥡 Takeaways NoBloat Project 🥡
+31/01/2024
+
 The main purpose of starting the NoBloat website was that I wanted to create a website from scratch without using any prebuilt front-end libraries. From this process, I learned the fundamental reasons as to why we have these frameworks—the "Why" factor.
 
 ## ❔ The 'Why'... ❔

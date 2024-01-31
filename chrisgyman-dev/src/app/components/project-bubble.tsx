@@ -1,4 +1,4 @@
-import type { Project } from "../project";
+import type { Project } from "./project";
 
 interface ProjectBubbleProps {
   project: Project;
