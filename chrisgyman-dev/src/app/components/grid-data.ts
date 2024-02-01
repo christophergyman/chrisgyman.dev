@@ -50,8 +50,7 @@ const projectArray: Project[] = [
 ];
 
 const learnedFromNoBloat: PostCardProps = {
-  imageSrc:
-    "/nobloatPostCardimage.png",
+  imageSrc: "/nobloatPostCardimage.png",
   imageAlt: "Learning",
   title: "Learning from NoBloat.Dev",
   subTitle: "Takeaways from a no framework static site",
@@ -60,6 +59,63 @@ const learnedFromNoBloat: PostCardProps = {
   markdownTitleName: "what-i-learned-from-no-bloat",
 };
 
-const arrPostCards: PostCardProps[] = [learnedFromNoBloat, learnedFromNoBloat];
+const dev2CodeReview: PostCardProps = {
+  imageSrc: "/ytStreamCodeReviewDev2.png",
+  imageAlt: "YTStream",
+  title: "Code Review YT-Stream",
+  subTitle: "Stream: Code Review 16/01/2024",
+  bubbleText1: "Stream",
+  bubbleText2: "Code Review",
+  markdownTitleName: "https://www.youtube.com/watch?v=obqlCZw4azg&t=7s",
+};
 
-export { arrPostCards, projectArray};
+const dev1DevStream: PostCardProps = {
+  imageSrc: "/ytStreamDevBlogDev1.png",
+  imageAlt: "YTStream",
+  title: "DevBlog1 YT-Stream",
+  subTitle: "Stream: Dev1 Blog 15/01/2024",
+  bubbleText1: "Stream",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=2fFcN39WU40&t=4776s",
+};
+
+const dev2DevStream: PostCardProps = {
+  imageSrc: "/ytStreamDevBlogDev2.png",
+  imageAlt: "YTStream",
+  title: "DevBlog2 YT-Stream",
+  subTitle: "Stream: Dev2 Blog 16/01/2024",
+  bubbleText1: "Stream",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=C-zm18X1d0Y&t=544s",
+};
+
+const dev3DevStream: PostCardProps = {
+  imageSrc: "/ytStreamDevBlogDev3.png",
+  imageAlt: "YTStream",
+  title: "DevBlog3 YT-Stream",
+  subTitle: "Stream: Dev3 Blog 18/01/2024",
+  bubbleText1: "Stream",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=4k3Hppf0QBw&t=768s",
+};
+
+const dev4DevStream: PostCardProps = {
+  imageSrc: "/ytStreamDevBlogDev4.png",
+  imageAlt: "YTStream",
+  title: "DevBlog4 YT-Stream",
+  subTitle: "Stream: Dev4 Blog 24/01/2024",
+  bubbleText1: "Stream",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=s-ghhV74fM4&t=32s",
+};
+
+const arrPostCards: PostCardProps[] = [
+  dev4DevStream,
+  dev3DevStream,
+  dev2CodeReview,
+  dev2DevStream,
+  dev1DevStream,
+  learnedFromNoBloat,
+];
+
+export { arrPostCards, projectArray };

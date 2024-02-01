@@ -1,17 +1,26 @@
 import { postcss } from "tailwindcss";
 import { PostCardProps } from "./postcard";
-import Link from 'next/link'
+import Link from "next/link";
 
 interface PostCardItemsProps {
   postCardDetails: PostCardProps;
 }
 
 function PostCardComponent({ postCardDetails }: PostCardItemsProps) {
-  const filelocation: string = "/post/" + postCardDetails.markdownTitleName;
+  // if markdown title is actually a youtube video link:
+  var finaldestination: string = "";
+  if (postCardDetails.markdownTitleName.includes("https://")) {
+    // set the youtube video link to the final destination
+    finaldestination = postCardDetails.markdownTitleName;
+  } else {
+    finaldestination = "/post/" + postCardDetails.markdownTitleName;
+  }
+
+  // const filelocation: string = "/post/" + postCardDetails.markdownTitleName;
 
   return (
     <div className="">
-      <Link href={filelocation}>
+      <Link href={finaldestination}>
         <div className="outline outline-1 card w-fit md:w-[397px] lg:w-[397px] xl:w-[397px] 2xl:w-[397px] bg-base-100 drop-shadow-2xl">
           <figure>
             <img
