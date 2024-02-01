@@ -10,7 +10,7 @@ export default async function FullPost({
   };
 }) {
   //markdown filepaht
-  const markdownFilesPath: string = "/src/app/markdownfiles/";
+  const markdownFilesPath: string = "/public/markdownfiles/";
   const finalPath: string = (await markdownFilesPath) + postName + ".md";
 
   return (
