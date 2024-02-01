@@ -1,5 +1,3 @@
-import { ProjectGridComponent } from "./project-grid";
-import { projectArray } from "@/app/components/grid-data";
 import { PostBubble } from "@/app/components/post-bubble";
 import Link from "next/link";
 
