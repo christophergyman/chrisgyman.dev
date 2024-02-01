@@ -1,7 +1,6 @@
-// Test data
-// example project
 import { Project } from "./project";
 import { PostCardProps } from "./postcard";
+import Image from "next/image";
 
 const chrisgymandevProject: Project = {
   id: 1,
@@ -43,39 +42,24 @@ const campusVideogame: Project = {
   bubbleName: "Fullstack",
 };
 
-// example projectArr
-const exampleProjectArr: Project[] = [
+const projectArray: Project[] = [
   chrisgymandevProject,
   nobloatWebsite,
   androidWeatherApp,
   campusVideogame,
 ];
 
-const examplePostCard: PostCardProps = {
-  imageSrc:
-    "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-  imageAlt: "Shoes",
-  title: "Why make a website?",
-  subTitle: "Its important to present work thats non github-able",
-  bubbleText1: "Blog",
-  bubbleText2: "Nextjs",
-};
-
 const learnedFromNoBloat: PostCardProps = {
   imageSrc:
-    "https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
+    "/nobloatPostCardimage.png",
   imageAlt: "Learning",
   title: "Learning from NoBloat.Dev",
   subTitle: "Takeaways from a no framework static site",
   bubbleText1: "Blog",
   bubbleText2: "HTML",
+  markdownTitleName: "what-i-learned-from-no-bloat",
 };
 
-const arrPostCards: PostCardProps[] = [
-  learnedFromNoBloat,
-  examplePostCard,
-  examplePostCard,
-  examplePostCard,
-];
+const arrPostCards: PostCardProps[] = [learnedFromNoBloat, learnedFromNoBloat];
 
-export { arrPostCards, exampleProjectArr };
+export { arrPostCards, projectArray};

@@ -1,5 +1,5 @@
 import { GridDisplay } from "./components/grid-display";
-import { exampleProjectArr } from "./components/grid-data";
+import { projectArray } from "./components/grid-data";
 import { arrPostCards } from "./components/grid-data";
 import { AboutMeComponent } from "./components/about-page";
 
@@ -16,7 +16,7 @@ export default function Home() {
             <AboutMeComponent />
           </div>
           <GridDisplay
-            projectListArray={exampleProjectArr}
+            projectListArray={projectArray}
             postCardListArr={arrPostCards}
           />
         </div>

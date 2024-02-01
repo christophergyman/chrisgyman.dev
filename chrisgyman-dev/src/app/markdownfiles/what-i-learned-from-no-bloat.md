@@ -2,7 +2,7 @@
 # 🥡 Takeaways NoBloat Project 🥡
 31/01/2024
 
-The main purpose of starting the NoBloat website was that I wanted to create a website from scratch without using any prebuilt front-end libraries. From this process, I learned the fundamental reasons as to why we have these frameworks—the "Why" factor.
+The main purpose of starting the [NoBloat website](https://github.com/christophergyman/nobloat_website) was that I wanted to create a website from scratch without using any prebuilt front-end libraries. From this process, I learned the fundamental reasons as to why we have these frameworks—the "Why" factor.
 
 ## ❔ The 'Why'... ❔
 A significant problem I observe nowadays, from watching first years (from the perspective of a 4th year with a year in the industry) on campus trying to learn software development, is that they merely learn how to use a single framework, stick to it, do not understand the reasons for how and why they are using it, and run into technical debt. This follows a vicious cycle of learning a framework solely for the purpose of building something, then discarding it, barely scraping the surface. In the future, they end up tacking on other frameworks because of bad initial project design—interacting with frameworks like a black box rather than understanding them at a deeper level.
