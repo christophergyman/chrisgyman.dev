@@ -16,10 +16,10 @@ export default async function FullPost({
   const env = process.env.NODE_ENV;
   if (env == "development") {
     // do something
-    markdownFilesPath = "/src/app/markdownfiles/";
+    markdownFilesPath = "/public/markdownfiles/";
     finalPath = markdownFilesPath + postName + ".md";
   } else if (env == "production") {
-    markdownFilesPath = "/app/markdownfiles/";
+    markdownFilesPath = "/markdownfiles/";
     finalPath = markdownFilesPath + postName + ".md";
     // do something
   }
