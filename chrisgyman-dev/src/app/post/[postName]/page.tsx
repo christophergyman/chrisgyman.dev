@@ -12,7 +12,6 @@ export default async function FullPost({
   //markdown filepaht
   const markdownFilesPath: string = "/src/app/markdownfiles/";
   const finalPath: string = (await markdownFilesPath) + postName + ".md";
-  console.log(finalPath);
 
   return (
     <main>
