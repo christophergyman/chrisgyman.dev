@@ -50,6 +50,7 @@ const projectArray: Project[] = [
 ];
 
 const learnedFromNoBloat: PostCardProps = {
+  id: 1,
   imageSrc: "/nobloatPostCardimage.png",
   imageAlt: "Learning",
   title: "Learning from NoBloat.Dev",
@@ -60,6 +61,7 @@ const learnedFromNoBloat: PostCardProps = {
 };
 
 const dev2CodeReview: PostCardProps = {
+  id: 2,
   imageSrc: "/ytStreamCodeReviewDev2.png",
   imageAlt: "YTStream",
   title: "Code Review YT-Stream",
@@ -70,6 +72,7 @@ const dev2CodeReview: PostCardProps = {
 };
 
 const dev1DevStream: PostCardProps = {
+  id: 3,
   imageSrc: "/ytStreamDevBlogDev1.png",
   imageAlt: "YTStream",
   title: "DevBlog1 YT-Stream",
@@ -80,6 +83,7 @@ const dev1DevStream: PostCardProps = {
 };
 
 const dev2DevStream: PostCardProps = {
+  id: 4,
   imageSrc: "/ytStreamDevBlogDev2.png",
   imageAlt: "YTStream",
   title: "DevBlog2 YT-Stream",
@@ -90,6 +94,7 @@ const dev2DevStream: PostCardProps = {
 };
 
 const dev3DevStream: PostCardProps = {
+  id: 5,
   imageSrc: "/ytStreamDevBlogDev3.png",
   imageAlt: "YTStream",
   title: "DevBlog3 YT-Stream",
@@ -100,6 +105,7 @@ const dev3DevStream: PostCardProps = {
 };
 
 const dev4DevStream: PostCardProps = {
+  id: 6,
   imageSrc: "/ytStreamDevBlogDev4.png",
   imageAlt: "YTStream",
   title: "DevBlog4 YT-Stream",

@@ -1,4 +1,5 @@
 interface PostCardProps {
+  id: number;
   imageSrc: any;
   imageAlt: string;
   title: string;
