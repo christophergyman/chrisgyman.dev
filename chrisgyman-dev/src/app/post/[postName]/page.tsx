@@ -13,6 +13,7 @@ export default async function FullPost({
   let markdownFilesPath: string = "";
   let finalPath: string = "";
 
+  // check if prod of dev and read files differently.... 
   const env = process.env.NODE_ENV;
   if (env == "development") {
     // do something
