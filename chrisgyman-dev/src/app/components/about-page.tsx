@@ -13,6 +13,19 @@ function AboutMeComponent() {
             🚀 Passionate about Programming | 💻 Code Enthusiast | 🌟 Front End
             Dev
           </p>
+          <div className="pt-10">
+            <a href="https://www.linkedin.com/in/christophergayiuman/">
+              ☎️: [Linkedin]
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/christophergyman">🧑‍💻: [Github]</a>
+          </div>
+          <div>
+            <a href="https://www.youtube.com/@devchrisgyman/featured ">
+              📺 [Youtube Dev Streams]
+            </a>
+          </div>
         </div>
       </div>
     </div>
