@@ -1,5 +1,14 @@
 import { PostBubble } from "@/app/components/post-bubble";
 import Link from "next/link";
+import path from "path";
+
+export function getMarkdownDirectoryDev() {
+  return path.join(process.cwd(), "/public/markdownfiles/");
+}
+
+export function getMarkdownDirectoryProd() {
+  return path.join(process.cwd(), "/markdownfiles/");
+}
 
 export default async function FullPost({
   // take in parameter from url and define prop type
@@ -13,17 +22,19 @@ export default async function FullPost({
   let markdownFilesPath: string = "";
   let finalPath: string = "";
 
-  // check if prod of dev and read files differently.... 
+  // check if prod of dev and read files differently....
   const env = process.env.NODE_ENV;
   if (env == "development") {
     // do something
-    markdownFilesPath = "/public/markdownfiles/";
+    markdownFilesPath = getMarkdownDirectoryDev();
     finalPath = markdownFilesPath + postName + ".md";
   } else if (env == "production") {
-    markdownFilesPath = "/markdownfiles/";
+    markdownFilesPath = getMarkdownDirectoryProd();
     finalPath = markdownFilesPath + postName + ".md";
     // do something
   }
+
+  console.log("final path is: " + { finalPath });
 
   return (
     <main>
