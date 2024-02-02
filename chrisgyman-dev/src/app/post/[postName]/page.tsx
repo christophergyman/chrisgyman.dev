@@ -2,11 +2,11 @@ import { PostBubble } from "@/app/components/post-bubble";
 import Link from "next/link";
 import path from "path";
 
-export function getMarkdownDirectoryDev() {
+function getMarkdownDirectoryDev() {
   return path.join(process.cwd(), "/public/markdownfiles/");
 }
 
-export function getMarkdownDirectoryProd() {
+function getMarkdownDirectoryProd() {
   return path.join(process.cwd(), "/markdownfiles/");
 }
 
