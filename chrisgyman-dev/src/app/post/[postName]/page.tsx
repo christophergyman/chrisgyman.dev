@@ -3,7 +3,6 @@ import Link from "next/link";
 import path from "path";
 
 function getMarkdownDirectory() {
-  console.log(process.cwd());
   return path.join(process.cwd(), "src", "app", "markdownfiles/");
 }
 
@@ -21,8 +20,6 @@ export default async function FullPost({
 
   markdownFilesPath = getMarkdownDirectory();
   finalPath = markdownFilesPath + postName + ".md";
-
-  console.log("final path is: " + finalPath );
 
   return (
     <main>
