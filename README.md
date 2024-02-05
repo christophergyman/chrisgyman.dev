@@ -1,5 +1,9 @@
-# chrisgyman.dev
-My personal blog written in nextjs
+# Chrisgyman.dev
+https://chrisgyman-dev.vercel.app/
 
-## Figma designs
-To begin a figma design was created...
+This is my ✨ personal developement blog ✨ written in [NextJS](https://nextjs.org/) using [React](https://react.dev/) and [TailwindCSS](https://tailwindcss.com/). This website was inspiried by my previous project [🧑‍💻 NoBloat 🧑‍💻](https://github.com/christophergyman/nobloat_website) which was a static HTML CSS and PHP site written without any front end framework.
+
+## Figma Designs
+![Homepage Figma Design](/images/figma1.png)
+![Blogpost Figma Design](/images/figma2.png)
+![Actual Homepage](/images/homepageScreenshot.png)
