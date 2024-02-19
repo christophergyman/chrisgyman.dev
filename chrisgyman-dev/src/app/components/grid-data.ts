@@ -115,6 +115,17 @@ const dev4DevStream: PostCardProps = {
   markdownTitleName: "https://www.youtube.com/watch?v=s-ghhV74fM4&t=32s",
 };
 
+const devBlogFinish: PostCardProps = {
+  id: 7,
+  imageSrc: "/devBlogFinish.png",
+  imageAlt: "YTVideo",
+  title: "DevBlog Final!",
+  subTitle: "Video: Final Update! 19/02/2024",
+  bubbleText1: "Video",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=r75oD4_EV4U",
+};
+
 const arrPostCards: PostCardProps[] = [
   dev4DevStream,
   dev3DevStream,
@@ -122,6 +133,7 @@ const arrPostCards: PostCardProps[] = [
   dev2DevStream,
   dev1DevStream,
   learnedFromNoBloat,
+  devBlogFinish,
 ];
 
 export { arrPostCards, projectArray };
