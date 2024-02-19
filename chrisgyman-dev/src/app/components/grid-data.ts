@@ -126,8 +126,20 @@ const devBlogFinish: PostCardProps = {
   markdownTitleName: "https://www.youtube.com/watch?v=r75oD4_EV4U",
 };
 
+const openGLRendering: PostCardProps = {
+  id: 8,
+  imageSrc: "/openGLRendering.png",
+  imageAlt: "OpenGL Video",
+  title: "OpenGL Pygame Render",
+  subTitle: "Video: OpenGL Game Engine 01/02/2024",
+  bubbleText1: "Video",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=XTd0tisWBIA",
+};
+
 const arrPostCards: PostCardProps[] = [
   devBlogFinish,
+  openGLRendering,
   dev4DevStream,
   dev3DevStream,
   dev2CodeReview,
