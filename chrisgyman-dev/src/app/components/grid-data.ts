@@ -137,8 +137,20 @@ const openGLRendering: PostCardProps = {
   markdownTitleName: "https://www.youtube.com/watch?v=XTd0tisWBIA",
 };
 
+const dogCNN: PostCardProps = {
+  id: 9,
+  imageSrc: "/dogCNN.png",
+  imageAlt: "DogCNN Video",
+  title: "Stanford Dogs CNN",
+  subTitle: "Video: Stanford Dogs AI 05/02/2024",
+  bubbleText1: "Video",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://www.youtube.com/watch?v=SJnnS_8Tql8",
+};
+
 const arrPostCards: PostCardProps[] = [
   devBlogFinish,
+  dogCNN,
   openGLRendering,
   dev4DevStream,
   dev3DevStream,
