@@ -127,13 +127,13 @@ const devBlogFinish: PostCardProps = {
 };
 
 const arrPostCards: PostCardProps[] = [
+  devBlogFinish,
   dev4DevStream,
   dev3DevStream,
   dev2CodeReview,
   dev2DevStream,
   dev1DevStream,
   learnedFromNoBloat,
-  devBlogFinish,
 ];
 
 export { arrPostCards, projectArray };
