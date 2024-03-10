@@ -159,8 +159,20 @@ const skyguardDev1: PostCardProps = {
   markdownTitleName: "https://www.youtube.com/watch?v=n-gdqmzC8XM&t=2204s",
 };
 
+const skyguard: PostCardProps = {
+  id: 11,
+  imageSrc: "/skyguard.png",
+  imageAlt: "SkyGuard",
+  title: "SkyGuard",
+  subTitle: "Drone Intelligence Software",
+  bubbleText1: "Blog",
+  bubbleText2: "Dev",
+  markdownTitleName: "skyguard.MD",
+};
+
 const arrPostCards: PostCardProps[] = [
   skyguardDev1,
+  skyguard,
   devBlogFinish,
   dogCNN,
   openGLRendering,
