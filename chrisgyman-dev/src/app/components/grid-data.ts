@@ -150,7 +150,7 @@ const dogCNN: PostCardProps = {
 
 const skyguardDev1: PostCardProps = {
   id: 10,
-  imageSrc: "/skyguardDev1",
+  imageSrc: "/skyguardDev1.png",
   imageAlt: "SkyGuard Dev1",
   title: "SkyGuard Dev 1",
   subTitle: "Drone Intelligence Software 10/03/2024",
