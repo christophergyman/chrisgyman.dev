@@ -167,7 +167,7 @@ const skyguard: PostCardProps = {
   subTitle: "Drone Intelligence Software",
   bubbleText1: "Blog",
   bubbleText2: "Dev",
-  markdownTitleName: "skyguard.MD",
+  markdownTitleName: "skyguard",
 };
 
 const arrPostCards: PostCardProps[] = [
