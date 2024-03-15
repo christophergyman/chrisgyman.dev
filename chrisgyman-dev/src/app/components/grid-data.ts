@@ -170,7 +170,20 @@ const skyguard: PostCardProps = {
   markdownTitleName: "skyguard",
 };
 
+const OHDS_Gesture_Video: PostCardProps = {
+  id: 12,
+  imageSrc: "/OHDS_gesture_video.png",
+  imageAlt: "Gesture_Test_Video",
+  title: "SkyGuard OHDS Gesture Test",
+  subTitle: "Gesture Tracking Video Test",
+  bubbleText1: "Video",
+  bubbleText2: "Dev",
+  markdownTitleName: "https://youtu.be/t5DaB8515ME",
+};
+
+
 const arrPostCards: PostCardProps[] = [
+  OHDS_Gesture_Video,
   skyguardDev1,
   skyguard,
   devBlogFinish,
