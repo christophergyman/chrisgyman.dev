@@ -24,12 +24,12 @@ const nobloatWebsite: Project = {
 
 const androidWeatherApp: Project = {
   id: 3,
-  title: "EX-Weather Android App",
-  link: "https://github.com/christophergyman/weatherAndroidApp",
+  title: "OpenGL Graphics Engine",
+  link: "https://github.com/christophergyman/opengl_pygame",
   postType: "Project",
-  description: "Android based Weather app using API",
+  description: "Graphics engine and rendering made in Python",
   bubbleColor: "🟡",
-  bubbleName: "Java",
+  bubbleName: "Python",
 };
 
 const campusVideogame: Project = {
