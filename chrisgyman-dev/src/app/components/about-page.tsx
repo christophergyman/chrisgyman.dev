@@ -7,8 +7,8 @@ function AboutMeComponent() {
       <Avatar />
       <div className="pt-3">
         <p className="font-black text-xl">Christopher Man</p>
-        <div className="font-bold text-[#bdbdbd]">
-          <p className="text-gray-300 ">@chrisgyman he/him</p>
+        <div className="dark:text-[#bdbdbd]">
+          <p className="text-white dark:text-gray-300 ">@chrisgyman he/him</p>
           <p className="w-80 pt-2">
             🚀 Passionate about Programming | 💻 Code Enthusiast | 🌟 Front End
             Dev
