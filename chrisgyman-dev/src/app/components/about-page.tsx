@@ -10,8 +10,7 @@ function AboutMeComponent() {
         <div className="dark:text-[#bdbdbd]">
           <p className="text-white dark:text-gray-300 ">@chrisgyman he/him</p>
           <p className="w-80 pt-2">
-            🚀 Passionate about Programming | 💻 Code Enthusiast | 🌟 Front End
-            Dev
+            🚀 Passionate about Programming | 💻 Code Enthusiast | 🌟 Fullstack Dev 
           </p>
           <div className="pt-10">
             <a href="https://www.linkedin.com/in/christophergayiuman/">
